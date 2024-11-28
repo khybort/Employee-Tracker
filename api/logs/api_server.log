@@ -1,0 +1,308 @@
+INFO 2024-11-28 02:37:38,819 models Late employee: 97.0
+INFO 2024-11-28 02:41:28,001 models Late employee: 101.0
+INFO 2024-11-28 03:17:32,977 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:17:32,986 consumers WebSocket connection closed: admin
+INFO 2024-11-28 03:17:32,987 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:17:35,364 consumers WebSocket connection closed: admin
+INFO 2024-11-28 03:17:35,612 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:17:35,621 consumers WebSocket connection closed: admin
+INFO 2024-11-28 03:17:35,623 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:17:51,323 consumers New WebSocket connection: 
+INFO 2024-11-28 03:17:51,325 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:17:51,347 consumers New WebSocket connection: 
+INFO 2024-11-28 03:17:51,351 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:17:56,387 consumers New WebSocket connection: 
+INFO 2024-11-28 03:17:56,389 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:17:56,422 consumers New WebSocket connection: 
+INFO 2024-11-28 03:17:56,424 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:18:06,368 consumers New WebSocket connection: 
+INFO 2024-11-28 03:18:06,370 consumers WebSocket connection closed: 
+ERROR 2024-11-28 03:18:06,384 views AttendanceRecord does not exist
+INFO 2024-11-28 03:18:06,388 consumers New WebSocket connection: 
+INFO 2024-11-28 03:18:06,392 consumers WebSocket connection closed: 
+ERROR 2024-11-28 03:18:06,411 views AttendanceRecord does not exist
+INFO 2024-11-28 03:18:11,249 models Late employee: 138.0
+INFO 2024-11-28 03:18:15,706 consumers New WebSocket connection: 
+INFO 2024-11-28 03:18:15,707 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:18:15,728 consumers New WebSocket connection: 
+INFO 2024-11-28 03:18:15,731 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:26:45,494 consumers New WebSocket connection: 
+INFO 2024-11-28 03:26:45,498 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:26:45,499 consumers New WebSocket connection: 
+INFO 2024-11-28 03:26:45,503 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:26:45,550 views AttendanceRecord does not exist
+INFO 2024-11-28 03:26:45,566 views AttendanceRecord does not exist
+INFO 2024-11-28 03:26:52,900 models Late employee: 146.0
+INFO 2024-11-28 03:27:53,763 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:27:53,766 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:27:53,767 consumers WebSocket connection closed: admin
+INFO 2024-11-28 03:28:22,356 consumers New WebSocket connection: 
+INFO 2024-11-28 03:28:22,358 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:28:22,367 consumers New WebSocket connection: 
+INFO 2024-11-28 03:28:22,370 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:28:22,375 views AttendanceRecord does not exist
+INFO 2024-11-28 03:28:22,403 views AttendanceRecord does not exist
+INFO 2024-11-28 03:28:23,632 models Late employee: 148.0
+INFO 2024-11-28 03:28:33,960 consumers WebSocket connection closed: admin
+INFO 2024-11-28 03:28:34,223 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:48:05,719 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:50:40,799 consumers New WebSocket connection: 
+INFO 2024-11-28 03:50:40,801 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:50:40,812 consumers New WebSocket connection: 
+INFO 2024-11-28 03:50:40,814 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:50:46,889 consumers New WebSocket connection: 
+INFO 2024-11-28 03:50:46,890 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:50:46,911 consumers New WebSocket connection: 
+INFO 2024-11-28 03:50:46,913 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:50:56,790 consumers New WebSocket connection: 
+INFO 2024-11-28 03:50:56,791 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:50:56,802 consumers New WebSocket connection: 
+INFO 2024-11-28 03:50:56,804 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:57:07,462 consumers New WebSocket connection: 
+INFO 2024-11-28 03:57:07,466 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:57:07,467 consumers New WebSocket connection: 
+INFO 2024-11-28 03:57:07,472 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:57:16,518 consumers New WebSocket connection: 
+INFO 2024-11-28 03:57:16,522 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:57:16,539 consumers New WebSocket connection: 
+INFO 2024-11-28 03:57:16,543 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:57:16,676 views AttendanceRecord does not exist
+INFO 2024-11-28 03:57:16,697 views AttendanceRecord does not exist
+INFO 2024-11-28 03:57:23,744 models Late employee: 177.0
+INFO 2024-11-28 03:57:28,665 consumers New WebSocket connection: 
+INFO 2024-11-28 03:57:28,669 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:57:28,684 consumers New WebSocket connection: 
+INFO 2024-11-28 03:57:28,687 consumers WebSocket connection closed: 
+INFO 2024-11-28 03:57:55,795 consumers New WebSocket connection: admin
+INFO 2024-11-28 03:58:02,402 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:00:38,309 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:00:38,313 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:00:47,230 consumers New WebSocket connection: 
+INFO 2024-11-28 04:00:47,232 consumers WebSocket connection closed: 
+INFO 2024-11-28 04:00:47,245 views AttendanceRecord does not exist
+INFO 2024-11-28 04:00:47,259 consumers New WebSocket connection: 
+INFO 2024-11-28 04:00:47,263 consumers WebSocket connection closed: 
+INFO 2024-11-28 04:00:47,272 views AttendanceRecord does not exist
+INFO 2024-11-28 04:00:48,343 models Late employee: 180.0
+INFO 2024-11-28 04:01:04,273 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:24,843 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:24,895 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:24,911 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:24,913 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:27,260 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:27,273 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:27,276 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:27,291 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:28,535 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:28,575 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:28,578 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:28,593 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:31,031 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:31,054 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:31,056 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:31,058 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:33,638 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:33,707 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:33,709 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:33,711 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:35,580 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:01:35,580 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:35,582 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:01:35,584 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:02:00,597 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:02:00,846 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:02:00,849 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:02:00,881 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:02:02,389 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:02:02,390 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:02:02,396 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:02:02,406 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:02:03,437 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:02:03,506 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:02:03,508 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:02:03,509 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:02:05,649 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:02:05,718 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:03:08,894 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:03:09,147 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:03:09,153 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:03:09,164 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:03:17,409 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:03:17,649 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:03:17,661 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:03:17,662 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:03:24,285 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:03:24,541 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:03:24,547 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:03:24,560 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:05:39,349 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:05:39,485 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:05:39,495 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:05:39,497 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:05:51,262 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:05:51,311 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:05:51,318 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:05:51,330 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:05:58,233 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:05:58,297 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:05:58,303 consumers WebSocket connection closed: admin
+INFO 2024-11-28 04:05:58,318 consumers New WebSocket connection: admin
+INFO 2024-11-28 04:07:37,685 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:15:45,456 consumers New WebSocket connection: 
+INFO 2024-11-28 15:15:45,459 consumers New WebSocket connection: 
+INFO 2024-11-28 15:15:45,462 consumers WebSocket connection closed: 
+INFO 2024-11-28 15:15:45,464 consumers WebSocket connection closed: 
+INFO 2024-11-28 15:15:45,635 consumers New WebSocket connection: 
+INFO 2024-11-28 15:15:45,638 consumers WebSocket connection closed: 
+INFO 2024-11-28 15:15:45,658 consumers New WebSocket connection: 
+INFO 2024-11-28 15:15:45,661 consumers WebSocket connection closed: 
+INFO 2024-11-28 15:31:18,559 views AttendanceRecord does not exist
+INFO 2024-11-28 15:31:18,586 views AttendanceRecord does not exist
+INFO 2024-11-28 15:31:18,592 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:31:18,598 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:31:18,612 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:31:41,367 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:31:41,529 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:31:41,531 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:31:41,532 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:32:42,469 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:32:42,525 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:32:42,530 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:32:42,546 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:33:09,824 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:33:09,883 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:33:09,885 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:33:09,887 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:33:16,022 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:33:16,079 views AttendanceRecord does not exist
+INFO 2024-11-28 15:33:16,084 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:33:16,099 views AttendanceRecord does not exist
+INFO 2024-11-28 15:33:16,101 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:33:16,103 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:33:19,651 models Late employee: 873.0
+INFO 2024-11-28 15:33:23,722 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:33:23,837 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:33:23,839 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:33:23,841 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:34:14,935 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:34:15,011 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:34:15,013 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:34:15,014 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:34:23,421 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:34:23,506 consumers New WebSocket connection: admin
+INFO 2024-11-28 15:34:23,524 consumers WebSocket connection closed: admin
+INFO 2024-11-28 15:34:23,526 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:29:24,094 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:29:34,518 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:29:34,520 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:29:34,523 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:37:55,768 consumers New WebSocket connection: 
+INFO 2024-11-28 16:37:55,770 consumers New WebSocket connection: 
+INFO 2024-11-28 16:37:55,771 consumers WebSocket connection closed: 
+INFO 2024-11-28 16:37:55,773 consumers WebSocket connection closed: 
+INFO 2024-11-28 16:39:34,068 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:47:36,162 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:47:36,164 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:47:36,176 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:48:31,937 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:48:31,939 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:48:31,965 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:48:40,583 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:48:40,707 views AttendanceRecord does not exist
+INFO 2024-11-28 16:48:40,739 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:48:40,741 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:48:40,744 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:48:40,765 views AttendanceRecord does not exist
+INFO 2024-11-28 16:48:45,627 models Late employee: 948.0
+INFO 2024-11-28 16:48:51,089 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:48:51,207 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:49:23,457 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:49:23,460 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:49:23,463 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:49:34,337 consumers New WebSocket connection: admin
+INFO 2024-11-28 16:49:46,093 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:49:46,098 consumers WebSocket connection closed: admin
+INFO 2024-11-28 16:59:33,803 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:17:53,728 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:17:53,737 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:17:53,740 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:17:53,741 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:21:51,958 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:21:51,959 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:21:52,185 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:21:52,190 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:21:52,219 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:21:52,264 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:39:00,529 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:39:00,531 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:39:00,833 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:39:00,838 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:39:00,862 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:41:14,802 consumers New WebSocket connection: 
+INFO 2024-11-28 17:41:14,804 consumers WebSocket connection closed: 
+INFO 2024-11-28 17:41:14,809 consumers New WebSocket connection: 
+INFO 2024-11-28 17:41:14,814 consumers WebSocket connection closed: 
+INFO 2024-11-28 17:41:27,262 consumers New WebSocket connection: 
+INFO 2024-11-28 17:41:27,264 consumers WebSocket connection closed: 
+INFO 2024-11-28 17:41:37,245 views AttendanceRecord does not exist
+INFO 2024-11-28 17:41:37,266 views AttendanceRecord does not exist
+INFO 2024-11-28 17:41:37,499 consumers New WebSocket connection: 
+INFO 2024-11-28 17:41:37,501 consumers WebSocket connection closed: 
+INFO 2024-11-28 17:42:13,755 models Late employee: 1002.0
+INFO 2024-11-28 17:42:31,621 consumers New WebSocket connection: 
+INFO 2024-11-28 17:42:31,623 consumers WebSocket connection closed: 
+INFO 2024-11-28 17:43:04,137 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:43:04,417 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:43:04,426 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:43:04,452 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:46:39,777 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:46:45,547 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:46:45,784 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:47:03,542 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:47:03,668 views AttendanceRecord does not exist
+INFO 2024-11-28 17:47:03,682 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:47:03,684 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:47:03,687 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:47:03,689 views AttendanceRecord does not exist
+INFO 2024-11-28 17:47:05,214 models Late employee: 1007.0
+ERROR 2024-11-28 17:51:47,279 views Weekends are not included in the days off.
+INFO 2024-11-28 17:51:56,608 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:51:56,610 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:51:56,612 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:52:04,613 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:52:04,693 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:52:04,696 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:52:04,717 consumers New WebSocket connection: admin
+ERROR 2024-11-28 17:52:11,000 views Employee has no remaining leave days
+INFO 2024-11-28 17:53:15,039 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:53:15,042 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:53:15,066 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:53:18,280 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:53:18,281 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:53:18,304 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:53:21,556 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:53:21,558 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:53:21,560 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:53:33,097 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:53:33,191 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:53:33,193 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:53:33,211 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:55:40,486 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:55:40,600 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:56:39,551 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:57:16,436 consumers WebSocket connection closed: admin
+INFO 2024-11-28 17:57:16,746 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:57:16,749 consumers New WebSocket connection: admin
+INFO 2024-11-28 17:57:16,751 consumers WebSocket connection closed: admin
+INFO 2024-11-28 18:01:50,399 consumers WebSocket connection closed: admin
+INFO 2024-11-28 18:01:50,683 consumers New WebSocket connection: admin
+INFO 2024-11-28 18:01:50,685 consumers New WebSocket connection: admin
+INFO 2024-11-28 18:01:50,685 consumers WebSocket connection closed: admin
+INFO 2024-11-28 18:01:56,486 consumers WebSocket connection closed: admin
+INFO 2024-11-28 18:02:04,380 consumers New WebSocket connection: admin
+INFO 2024-11-28 18:02:04,389 consumers WebSocket connection closed: admin
+INFO 2024-11-28 18:02:04,421 consumers New WebSocket connection: admin
+INFO 2024-11-28 18:03:14,885 consumers WebSocket connection closed: admin
+INFO 2024-11-28 18:03:18,163 consumers WebSocket connection closed: admin
+INFO 2024-11-28 18:03:21,453 consumers WebSocket connection closed: admin
+INFO 2024-11-28 18:11:56,746 consumers WebSocket connection closed: admin

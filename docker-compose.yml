@@ -1,0 +1,230 @@
+services:
+  api-dev:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: api-dev
+    env_file:
+      - ./api/.env
+    command: >
+      bash -c "
+      poetry run python manage.py makemigrations --no-input &&
+      poetry run python manage.py migrate --no-input &&
+      poetry run gunicorn config.wsgi:application -c gunicorn.conf.py
+      "
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./api:/app
+      - ./api/.env.development:/app/.env
+      - ./api/staticfiles:/app/staticfiles
+    networks:
+      - app-network
+    ports:
+      - "8000:8000"
+    profiles:
+      - development
+
+  api-prod:
+    build:
+      context: ./api
+    container_name: api-prod
+    env_file:
+      - ./api/.env
+    command: >
+      bash -c "
+      poetry run python manage.py makemigrations --no-input &&
+      poetry run python manage.py migrate --no-input &&
+      poetry run gunicorn config.wsgi:application -c gunicorn.conf.py
+      "
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./api:/app
+      - ./api/.env.production:/app/.env
+      - ./api/staticfiles:/app/staticfiles
+    networks:
+      - app-network
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+    profiles:
+      - production
+
+  ui-dev:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: ui-dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./ui:/app
+      - ./ui/node_modules:/app/node_modules
+      - ./ui/.env.development:/app/.env
+    env_file:
+      - ./ui/.env
+    depends_on:
+      - api-dev
+    networks:
+      - app-network
+    profiles:
+      - development
+
+  ui-prod:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    container_name: ui-prod
+    ports:
+      - "80:3000"
+    volumes:
+      - ./ui:/app
+      - ./ui/node_modules:/app/node_modules
+      - ./ui/.env.production:/app/.env
+    env_file:
+      - ./ui/.env
+    depends_on:
+      - api-prod
+    networks:
+      - app-network
+    expose:
+      - "3000"
+    profiles:
+      - production
+
+  db:
+    image: postgres:13
+    container_name: db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: employee_tracker
+    networks:
+      - app-network
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:6
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - app-network
+  
+  daphne-dev:
+    build:
+      context: ./api/
+      dockerfile: Dockerfile
+    command: poetry run daphne -b 0.0.0.0 -p 8001 config.asgi:application
+    env_file:
+      - ./api/.env
+    volumes:
+      - ./api:/app
+      - ./api/.env.development:/app/.env
+    depends_on:
+      - api-dev
+      - redis
+    ports:
+      - "8001:8001"
+    profiles:
+      - development
+    networks:
+      - app-network
+  
+  daphne-prod:
+    build:
+      context: ./api/
+      dockerfile: Dockerfile
+    command: poetry run daphne -b 0.0.0.0 -p 8001 config.asgi:application
+    env_file:
+      - ./api/.env
+    volumes:
+      - ./api:/app
+      - ./api/.env.production:/app/.env
+    depends_on:
+      - api-prod
+      - redis
+    profiles:
+      - production
+    ports:
+      - "8001:8001"
+    networks:
+      - app-network
+
+  celery:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: celery
+    env_file:
+      - ./api/.env
+    command: >
+      bash -c "
+      poetry run celery -A config worker --loglevel=info
+      "
+    networks:
+      - app-network
+    volumes:
+      - ./api:/app
+    depends_on:
+      - redis
+    restart: always
+  
+  celery_beat:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: celery_beat
+    env_file:
+      - ./api/.env
+    command: >
+      bash -c "
+      poetry run celery -A config beat --loglevel=info
+      "
+    networks:
+      - app-network
+    volumes:
+      - ./api:/app
+    depends_on:
+      - redis
+    restart: always
+
+  flower:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: flower
+    env_file:
+      - ./api/.env
+    command: >
+      bash -c "
+      poetry run celery -A config flower --port=5555
+      "
+    ports:
+      - "5555:5555"
+    depends_on:
+      - celery
+    networks:
+      - app-network
+    volumes:
+      - ./api:/app
+    restart: always
+
+
+volumes:
+  postgres_data:
+
+networks:
+  app-network:
+    driver: bridge

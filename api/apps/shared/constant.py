@@ -1,0 +1,8 @@
+from datetime import time
+
+WORK_TIME = 8.0
+WORK_START_TIME = time(1, 0)
+CHECK_IN = "check-in"
+CHECK_OUT = "check-out"
+REMAINING_DAY_NOTIFICATION_LIMIT = 3
+DAILY_ATTENDANCE_SCHEDULE_INTERVAL = 1
